@@ -5,7 +5,11 @@
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
         <label>Information</label>
-        <layoutColumns>            
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>DocumentNumber</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>InvoiceNumber</field>
@@ -17,13 +21,13 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ReferenceEntityId</field>
-            </layoutItems>            
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>BillToContactId</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>DocumentNumber</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>InvoiceDate</field>
@@ -86,10 +90,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>BillToContactId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
