@@ -1,68 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
   <fields>
-    <label>Kumquat</label>
-    <name>Bob</name>
-  </fields>
-  <fields>
     <label>Orange</label>
-    <name>Sally</name>
-  </fields>
-  <fields>
-    <label>Apple</label>
-    <name>Alice</name>
-  </fields>
+    <name>Bob</name>
+  </fields>  
   <fieldSets>
     <label>Orange</label>
     <name>Bob</name>
-  </fieldSets>
-  <fieldSets>
-    <label>Orange</label>
-    <name>Chuck</name>
-  </fieldSets>
-  <fieldSets>
-    <label>Orange</label>
-    <name>Sally</name>
   </fieldSets>
   <namedFilters>
     <label>Orange</label>
     <name>Bob</name>
   </namedFilters>
-  <namedFilters>
-    <label>Orange</label>
-    <name>Sally</name>
-  </namedFilters>
-  <namedFilters>
-    <label>Apple</label>
-    <name>Alice</name>
-  </namedFilters>
-  <recordTypes>
-    <label>Orange</label>
-    <name>Alice</name>
-  </recordTypes>
   <recordTypes>
     <label>Orange</label>
     <name>Bob</name>
-  </recordTypes>
-  <recordTypes>
-    <label>Orange</label>
-    <name>Sally</name>
   </recordTypes>
   <sharingReasons>
     <label>Orange</label>
     <name>Bob</name>
   </sharingReasons>
-  <sharingReasons>
-    <label>Orange</label>
-    <name>Sally</name>
-  </sharingReasons>
   <quickActions>
     <label>Orange</label>
     <name>Bob</name>
-  </quickActions>
-  <quickActions>
-    <label>Orange</label>
-    <name>Sally</name>
   </quickActions>
   <layouts>
     <label>Orange</label>
@@ -78,7 +38,7 @@
   </layouts>
   <layouts>
     <label>Orange</label>
-    <layout>Sally</layout>
+    <layout>Alice</layout>
     <sections>
         <label>Orange</label>
         <section>Bob</section>
@@ -92,28 +52,12 @@
     <label>Orange</label>
     <name>Bob</name>
   </validationRules>
-  <validationRules>
-    <label>Orange</label>
-    <name>Sally</name>
-  </validationRules>
   <webLinks>
     <label>Orange</label>
     <name>Bob</name>
   </webLinks>
-  <webLinks>
-    <label>Orange</label>
-    <name>Sally</name>
-  </webLinks>
   <workflowTasks>
     <label>Orange</label>
     <name>Bob</name>
-  </workflowTasks>
-  <workflowTasks>
-    <label>Apple</label>
-    <name>Sally</name>
-  </workflowTasks>
-  <workflowTasks>
-    <label>Pear</label>
-    <name>Alice</name>
-  </workflowTasks>
+  </workflowTasks>  
 </CustomObjectTranslation>
