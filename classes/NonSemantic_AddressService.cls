@@ -5,9 +5,9 @@ public class AddressService {
     public UserDetails userDetails {get;set;}
     public Address address {get;set;}
 
-    public AddressValidationRequest(Account userAccount) {
+    public AddressValidationRequest(Account acct) {
       userDetails = new UserDetails();
-      address = new Address(userAccount);
+      address = new Address(acct);
     }
 
     public String toXml() {
@@ -51,20 +51,20 @@ public class AddressService {
   public class Address {
 
     public String streetAddress {get;set;}
-    public String municipality {get;set;}
+    public String city {get;set;}
     // ... other address vars
 
     public Address(Account acct) {
       this.streetAddress = acc.ShippingStreet;
-      this.municipality = acc.ShippingCity;
+      this.city = acc.ShippingCity;
       // ... set other address vars
     }
 
     public void addToXmlDoc(Dom.XmlNode parentNode) {
       parentNode.addChildElement('streetAddress', null, null)
         .addTextNode(streetAddress);
-      parentNode.addChildElement('municipality', null, null)
-        .addTextNode(municipality);
+      parentNode.addChildElement('city', null, null)
+        .addTextNode(city);
       // ... add other vars
     }
 
@@ -100,8 +100,8 @@ public class AddressService {
     }
 
     public static void updateTotalPoints(String recordId, String points){
-        update new Case(Id = recordId, 
-          CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
-    }  
+        update new Case(Id = recordId, CSTotal_points_credits__c = String.valueOf(Integer.valueOf(points) * 40));
+    }
+  
   }
 }
