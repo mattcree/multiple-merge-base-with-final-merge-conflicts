@@ -14,7 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>InvoiceNumber</field>
             </layoutItems>
-            
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>BillingAccountId</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ReferenceEntityId</field>
@@ -25,10 +28,6 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>BillingAccountId</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>InvoiceDate</field>
@@ -96,12 +95,12 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>LastModifiedDate</field>
+                <field>LastModifiedById</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>LastModifiedById</field>
-            </layoutItems>            
+                <field>LastModifiedDate</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
