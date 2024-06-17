@@ -5,7 +5,7 @@
         <description>MyEmailAlert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>test@gearset.com</recipient>
+            <recipient>tom-dev@gearset.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

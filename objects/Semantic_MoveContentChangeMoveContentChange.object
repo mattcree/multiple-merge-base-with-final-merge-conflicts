@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <move-two>source</move-two>
+    <move-one>content</move-one>
     <permanent-one />
-    <move-one>source</move-one>
     <permanent-two />
+    <move-two>content</move-two>
 </root>

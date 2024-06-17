@@ -7,7 +7,7 @@
     <actionOverrides>
         <actionName>Accept</actionName>
         <formFactor>Large</formFactor>
-        <type>Feature</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -174,7 +174,7 @@
     </fields>
     <fieldSets>
         <fullName>Field_set_one</fullName>
-        <description>On custom object one - FEAT.</description>
+        <description>On custom object one.</description>
         <displayedFields>
             <field>Dev_box_1__c</field>
             <isFieldManaged>false</isFieldManaged>
@@ -213,5 +213,5 @@
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1</errorMessage>
     </validationRules>
-    <visibility>Internal</visibility>
+    <visibility>Public</visibility>
 </CustomObject>
