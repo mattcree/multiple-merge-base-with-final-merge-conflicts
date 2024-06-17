@@ -6,7 +6,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Accept</actionName>
-        <formFactor>Small</formFactor>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -157,7 +157,7 @@
     <fields>
         <fullName>Dev_box_1__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>First label from dev sandbox 1 - ENV</description>
+        <description>First label from dev sandbox 1</description>
         <externalId>false</externalId>
         <label>Dev box 1</label>
         <trackTrending>false</trackTrending>
@@ -213,5 +213,5 @@
         <errorDisplayField>Name</errorDisplayField>
         <errorMessage>Please enter dev box 1</errorMessage>
     </validationRules>
-    <visibility>Internal</visibility>
+    <visibility>Public</visibility>
 </CustomObject>
